@@ -14,7 +14,7 @@ var backlogItems = [
 
 // the short program does not include GET and POST implementation for simplicity.
 
-// DELETE implementation
+
 
 server.delete("/project/backlog/:itemId", 
                        function(req, res) 
